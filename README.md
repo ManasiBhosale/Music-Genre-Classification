@@ -6,7 +6,7 @@ This project focuses on classifying music into different genres using machine le
 1. **Model 1** - Trained using all available features.
 2. **Model 2** - Trained using only selected features based on feature importance determined by a RandomForestClassifier.
 
-## Dataset
+## Dataset ([Link](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)) 
 - The dataset contains various audio features extracted from music files.
 - It includes genres as target labels and numerical features representing the audio characteristics.
 - Preprocessing steps include handling irrelevant data, normalizing data, and encoding categorical labels.
