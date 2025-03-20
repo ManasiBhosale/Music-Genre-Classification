@@ -62,28 +62,29 @@ Model 2, which used only the most important features, outperformed Model 1 on te
 - Model 2 had a lower training accuracy than Model 1 but performed better on the test set, indicating reduced overfitting.
 
 ## Visualizations
-- **Feature Importance Graph**:
 
-  ![Feature_Importance_Graph](https://github.com/user-attachments/assets/75d49514-2450-49be-9dcb-b1f037edc818)
+### 1. **Feature Importance Graph**:
 
-- **Model Accuracy and Loss Curves**:
-  - Model 1:
+   ![Feature_Importance_Graph](https://github.com/user-attachments/assets/75d49514-2450-49be-9dcb-b1f037edc818)
 
-![Model1_History_Plot](https://github.com/user-attachments/assets/5674166b-f279-4621-abd9-0f9b39c49f1e)
+### 2. **Model Accuracy and Loss Curves**:
 
-  - Model 2:
+   - **Model 1**:
+     ![Model1_History_Plot](https://github.com/user-attachments/assets/5674166b-f279-4621-abd9-0f9b39c49f1e)
+     
+   - **Model 2**:
+     ![Model2_History_Plot](https://github.com/user-attachments/assets/14e5c699-6279-4c6d-9fb1-51737012a6a3)
 
-![Model2_History_Plot](https://github.com/user-attachments/assets/14e5c699-6279-4c6d-9fb1-51737012a6a3)
+### 3. **Confusion Matrix**:
 
-- **Confusion Matrix**:
+   - **Model 1**:
 
-  - Model 1:
-  
-![Model1_ConfMatrix](https://github.com/user-attachments/assets/fe0e1797-4ccb-4543-b9e6-b99ee52fffbc)
-  
-  - Model 2:
+     ![Model1_ConfMatrix](https://github.com/user-attachments/assets/fe0e1797-4ccb-4543-b9e6-b99ee52fffbc)
 
-![Model2_ConfMatrix](https://github.com/user-attachments/assets/10bc71dd-66ad-4a37-a89c-09a1e341485c)
+   - **Model 2**:
+
+     ![Model2_ConfMatrix](https://github.com/user-attachments/assets/10bc71dd-66ad-4a37-a89c-09a1e341485c)
+
 
 ## How to Run
 1. Clone the repository.
